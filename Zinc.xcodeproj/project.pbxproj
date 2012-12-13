@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216166C3167993E800A685CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216166C2167993E800A685CD /* Cocoa.framework */; };
+		216166C5167993E800A685CD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216166C4167993E800A685CD /* AppleScriptObjC.framework */; };
+		216166CF167993E800A685CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216166CD167993E800A685CD /* InfoPlist.strings */; };
+		216166D1167993E800A685CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216166D0167993E800A685CD /* main.m */; };
+		216166D5167993E800A685CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 216166D3167993E800A685CD /* Credits.rtf */; };
+		216166D7167993E800A685CD /* ZNCAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 216166D6167993E800A685CD /* ZNCAppDelegate.applescript */; };
+		216166DA167993E900A685CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216166D8167993E900A685CD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		216166BE167993E800A685CD /* Zinc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zinc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		216166C2167993E800A685CD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		216166C4167993E800A685CD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		216166C7167993E800A685CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		216166C8167993E800A685CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		216166C9167993E800A685CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		216166CC167993E800A685CD /* Zinc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zinc-Info.plist"; sourceTree = "<group>"; };
+		216166CE167993E800A685CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		216166D0167993E800A685CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216166D2167993E800A685CD /* Zinc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zinc-Prefix.pch"; sourceTree = "<group>"; };
+		216166D4167993E800A685CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		216166D6167993E800A685CD /* ZNCAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = ZNCAppDelegate.applescript; sourceTree = "<group>"; };
+		216166D9167993E900A685CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216166BB167993E800A685CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216166C3167993E800A685CD /* Cocoa.framework in Frameworks */,
+				216166C5167993E800A685CD /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216166B3167993E800A685CD = {
+			isa = PBXGroup;
+			children = (
+				216166CA167993E800A685CD /* Zinc */,
+				216166C1167993E800A685CD /* Frameworks */,
+				216166BF167993E800A685CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		216166BF167993E800A685CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216166BE167993E800A685CD /* Zinc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		216166C1167993E800A685CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216166C2167993E800A685CD /* Cocoa.framework */,
+				216166C4167993E800A685CD /* AppleScriptObjC.framework */,
+				216166C6167993E800A685CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		216166C6167993E800A685CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216166C7167993E800A685CD /* AppKit.framework */,
+				216166C8167993E800A685CD /* CoreData.framework */,
+				216166C9167993E800A685CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		216166CA167993E800A685CD /* Zinc */ = {
+			isa = PBXGroup;
+			children = (
+				216166D6167993E800A685CD /* ZNCAppDelegate.applescript */,
+				216166D8167993E900A685CD /* MainMenu.xib */,
+				216166CB167993E800A685CD /* Supporting Files */,
+			);
+			path = Zinc;
+			sourceTree = "<group>";
+		};
+		216166CB167993E800A685CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216166CC167993E800A685CD /* Zinc-Info.plist */,
+				216166CD167993E800A685CD /* InfoPlist.strings */,
+				216166D0167993E800A685CD /* main.m */,
+				216166D2167993E800A685CD /* Zinc-Prefix.pch */,
+				216166D3167993E800A685CD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216166BD167993E800A685CD /* Zinc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216166DD167993E900A685CD /* Build configuration list for PBXNativeTarget "Zinc" */;
+			buildPhases = (
+				216166BA167993E800A685CD /* Sources */,
+				216166BB167993E800A685CD /* Frameworks */,
+				216166BC167993E800A685CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zinc;
+			productName = Zinc;
+			productReference = 216166BE167993E800A685CD /* Zinc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216166B5167993E800A685CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZNC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Royal Panda Company";
+			};
+			buildConfigurationList = 216166B8167993E800A685CD /* Build configuration list for PBXProject "Zinc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 216166B3167993E800A685CD;
+			productRefGroup = 216166BF167993E800A685CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216166BD167993E800A685CD /* Zinc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216166BC167993E800A685CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216166CF167993E800A685CD /* InfoPlist.strings in Resources */,
+				216166D5167993E800A685CD /* Credits.rtf in Resources */,
+				216166DA167993E900A685CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216166BA167993E800A685CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216166D1167993E800A685CD /* main.m in Sources */,
+				216166D7167993E800A685CD /* ZNCAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		216166CD167993E800A685CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216166CE167993E800A685CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		216166D3167993E800A685CD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216166D4167993E800A685CD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		216166D8167993E900A685CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216166D9167993E900A685CD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		216166DB167993E900A685CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		216166DC167993E900A685CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		216166DE167993E900A685CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zinc/Zinc-Prefix.pch";
+				INFOPLIST_FILE = "Zinc/Zinc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		216166DF167993E900A685CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zinc/Zinc-Prefix.pch";
+				INFOPLIST_FILE = "Zinc/Zinc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216166B8167993E800A685CD /* Build configuration list for PBXProject "Zinc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216166DB167993E900A685CD /* Debug */,
+				216166DC167993E900A685CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216166DD167993E900A685CD /* Build configuration list for PBXNativeTarget "Zinc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216166DE167993E900A685CD /* Debug */,
+				216166DF167993E900A685CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216166B5167993E800A685CD /* Project object */;
+}
