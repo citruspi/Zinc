@@ -14,6 +14,8 @@
 		216166D5167993E800A685CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 216166D3167993E800A685CD /* Credits.rtf */; };
 		216166D7167993E800A685CD /* ZNCAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 216166D6167993E800A685CD /* ZNCAppDelegate.applescript */; };
 		216166DA167993E900A685CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216166D8167993E900A685CD /* MainMenu.xib */; };
+		216166E11679940400A685CD /* 769px-Fap-now-kiss-l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 216166E01679940400A685CD /* 769px-Fap-now-kiss-l.jpg */; };
+		216166E516799A5700A685CD /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 216166E416799A5700A685CD /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		216166D4167993E800A685CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		216166D6167993E800A685CD /* ZNCAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = ZNCAppDelegate.applescript; sourceTree = "<group>"; };
 		216166D9167993E900A685CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		216166E01679940400A685CD /* 769px-Fap-now-kiss-l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "769px-Fap-now-kiss-l.jpg"; sourceTree = "<group>"; };
+		216166E416799A5700A685CD /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		216166B3167993E800A685CD = {
 			isa = PBXGroup;
 			children = (
+				216166E416799A5700A685CD /* icon.icns */,
 				216166CA167993E800A685CD /* Zinc */,
 				216166C1167993E800A685CD /* Frameworks */,
 				216166BF167993E800A685CD /* Products */,
@@ -86,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				216166D6167993E800A685CD /* ZNCAppDelegate.applescript */,
+				216166E01679940400A685CD /* 769px-Fap-now-kiss-l.jpg */,
 				216166D8167993E900A685CD /* MainMenu.xib */,
 				216166CB167993E800A685CD /* Supporting Files */,
 			);
@@ -159,6 +165,8 @@
 				216166CF167993E800A685CD /* InfoPlist.strings in Resources */,
 				216166D5167993E800A685CD /* Credits.rtf in Resources */,
 				216166DA167993E900A685CD /* MainMenu.xib in Resources */,
+				216166E11679940400A685CD /* 769px-Fap-now-kiss-l.jpg in Resources */,
+				216166E516799A5700A685CD /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +306,7 @@
 				216166DF167993E900A685CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
