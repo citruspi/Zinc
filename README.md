@@ -8,10 +8,14 @@ Zinc is awesome because it keeps the libraries in sync - if you add media to or 
 ### Why?
 I wanted to be able to sync my iTunes library (DRM free) with my Android devices.
 
+### How? 
+Zinc was actually a first for me - I wrote it in `Applescript`. I used to Applescript/Obj-C project in Xcode.
+
+The actual work is done by `rsync`.
 ### Gallery
 ![Imgur](http://i.imgur.com/rDRri.png)
 
-#### License
+### License
 Zinc is open source and is distributed under the MIT License:
 
 	Copyright © 2012 Mihir Singh <me@mihirsingh.com>
@@ -36,5 +40,5 @@ Zinc is open source and is distributed under the MIT License:
 	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
 	IN THE SOFTWARE.
 	
-#### Contributing
+### Contributing
 Just fork and submit a pull request ;)
