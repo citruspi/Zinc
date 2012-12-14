@@ -3,10 +3,10 @@
 ### Introduction
 Zinc allows OS X users to sync their media libraries with any device that they choose. Just choose the source directory (where all the media is), choose the target directory (where you want it to be), and sync.
 
-Zinc is awesome because it keeps the libraries in sync - if you add media to or remove media from the source directory, then the same changes will be made to the target directory on sync.
+Zinc is awesome because it keeps the libraries in sync - if you add media to or remove media from the source directory, then the same changes will be made to the target directory on sync. It's also really small - 181 KB.
 
 ### Why?
-I wanted to be able to sync my iTunes library (DRM free) with my Android devices.
+I wanted to be able to sync my iTunes library (DRM free) with my Android devices. Other solutions required large/clunky/ugly desktop clients or tied me down to one media player on the Play Store. 
 
 ### How? 
 Zinc was actually a first for me - I wrote it in `Applescript`. I used the `Cocoa-AppleScript` template in Xcode. The actual work is done by `rsync`.
