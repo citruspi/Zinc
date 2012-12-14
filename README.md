@@ -9,9 +9,8 @@ Zinc is awesome because it keeps the libraries in sync - if you add media to or 
 I wanted to be able to sync my iTunes library (DRM free) with my Android devices.
 
 ### How? 
-Zinc was actually a first for me - I wrote it in `Applescript`. I used to Applescript/Obj-C project in Xcode.
+Zinc was actually a first for me - I wrote it in `Applescript`. I used the `Cocoa-AppleScript` template in Xcode. The actual work is done by `rsync`.
 
-The actual work is done by `rsync`.
 ### Gallery
 ![Imgur](http://i.imgur.com/rDRri.png)
 
