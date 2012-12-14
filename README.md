@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##Zinc - Music Syncing For Everything (OS X)
 
 ### Introduction
@@ -39,9 +38,3 @@ Zinc is open source and is distributed under the MIT License:
 	
 #### Contributing
 Just fork and submit a pull request ;)
-=======
-Zinc
-====
-
-Sync music from your Mac to any device.
->>>>>>> 99bca930ef4a9044bdbfcf21e7d0ad3263994e4b
