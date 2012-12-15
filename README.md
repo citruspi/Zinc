@@ -11,7 +11,7 @@ I wanted to be able to sync my iTunes library (DRM free) with my Android devices
 ### How? 
 Zinc was actually a first for me - I wrote it in `Applescript`. I used the `Cocoa-AppleScript` template in Xcode. The actual work is done by `rsync`.
 
-### Gallery
+### Screenshot
 ![Imgur](http://i.imgur.com/rDRri.png)
 
 ### License
