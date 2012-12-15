@@ -25,7 +25,7 @@ script ZNCAppDelegate
     
     on makeSmooches_(sender)
         tell application "Terminal"
-            do script("rsync -r --delete-before --copy-links --times --modify-window=1 --progress " & quoted form of sourceFolder & " " & quoted form of targetFolder & "Middleman/")
+            do script("rsync -r --delete-before --copy-links --times --modify-window=1 --progress " & quoted form of sourceFolder & " " & quoted form of targetFolder & "Zinc/")
         end tell
         
         display dialog "You can now quit Zinc. Syncing will run via Terminal."
